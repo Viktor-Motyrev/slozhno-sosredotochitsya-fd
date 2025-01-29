@@ -3,7 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.theme-light .page {
+:root.theme-light .page {
     --back-image: url("/images/cover-image-light.png");
     --text-back: #FF8DCB;
     --text-color: #353430;

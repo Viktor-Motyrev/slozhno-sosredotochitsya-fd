@@ -23,11 +23,12 @@
         --title-text-color: #353430;
         --focus-title: #353430;
         --rec-border: #353430;
-
         --header-button-hover: rgba(50, 49, 45, 0.40);
     }
 }
 
-.header__rec {
-    display: none;
+
+.theme-light .header__rec {
+     display: none;
+     
 }

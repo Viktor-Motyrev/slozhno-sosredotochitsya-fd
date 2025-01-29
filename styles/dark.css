@@ -3,23 +3,6 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.theme-dark .page {
-    --back-image: url("/images/cover-image-dark.png");
-    --text-back: #FF0070;
-    --text-color: #F1B2CE;
-    --title-color: #DB00FF;
-    --title-text-color: #000028;
-    --focus-title: #FF0070;
-    --rec-border: #FF0070;
-
-    --rec-radius-border: 1px solid #FF0070;
-    --rec-radius: 50%;
-    --rec-radius-back: #FF0070;
-    --rec-radius-shadow: 0 0 4px 2px #FF0070;
-    --rec-text: #FF0070;
-
-    --header-button-hover: rgba(255, 0, 112, 0.40);
-}
 
 :root.theme-dark {
     :root {

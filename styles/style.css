@@ -33,7 +33,7 @@
 .cover__title {
   color: var(--title-color);
   text-shadow: 4px 4px 0px #FF0070;
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-style: normal;
   font-weight: 700;
@@ -48,7 +48,7 @@
 }
 
 .cover__paragraph {
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
@@ -105,7 +105,7 @@
 .header__theme-menu-button {
   color: var(--rec-border);
   text-align: center;
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -136,7 +136,7 @@
 .header__rec {
   color: var(--rec-text);
   text-align: center;
-  font-family: IBM Plex Mono, bold regular;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -206,7 +206,7 @@
 /* Секция с текстовым контентом */
 .focus-tips__title {
   color: var(--focus-title);
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -228,7 +228,7 @@
 
 .focus-tips__paragraph-title {
   color: var(--title-text-color);
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -238,7 +238,7 @@
 
 .focus-tips__paragraph-text {
   color: var(--text-color);
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -341,7 +341,7 @@
 }
 
 
-/* Карточки */
+/* Блок с карточками */
 .card {
   padding-right: var(--padding);
   padding-left: var(--padding);
@@ -360,7 +360,7 @@
 
 .card__text {
   color: var(--title-text-color);
-  font-family: IBM Plex Mono, monospace;
+  font-family:var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -425,7 +425,7 @@
 .footer__title {
   color: var(--title-color);
   text-shadow: 2px 2px 0px #FF0070;
-  font-family: IBM Plex Mono, monospace;
+  font-family: var(--font-familytext);
   font-size: var(--font-size-title);
   font-style: normal;
   font-weight: 700;

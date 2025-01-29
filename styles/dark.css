@@ -21,7 +21,7 @@
     --header-button-hover: rgba(255, 0, 112, 0.40);
 }
 
-@media (prefers-color-scheme: dark) {
+:root.theme-dark {
     :root {
         --back-image: url("/images/cover-image-dark.png");
         --text-back: #FF0070;
@@ -30,13 +30,14 @@
         --title-text-color: #000028;
         --focus-title: #FF0070;
         --rec-border: #FF0070;
-
+      
         --rec-radius-border: 1px solid #FF0070;
         --rec-radius: 100%;
         --rec-radius-back: #FF0070;
         --rec-radius-shadow: 0 0 4px 2px #FF0070;
         --rec-text: #FF0070;
-
+      
         --header-button-hover: rgba(255, 0, 112, 0.40);
-    }
+      }
+      
 }

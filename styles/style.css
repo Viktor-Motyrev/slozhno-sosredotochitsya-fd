@@ -4,6 +4,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeats;
+  margin: 0 auto;
 }
 
 /* Шапка */
@@ -341,7 +343,7 @@
 }
 
 
-/* Блок с карточками */
+/* Карточки */
 .card {
   padding-right: var(--padding);
   padding-left: var(--padding);

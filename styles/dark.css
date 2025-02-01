@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+:root.theme-dark .page {
     :root {
         --back-image: url("/images/cover-image-dark.png");
         --text-back: #FF0070;
@@ -13,6 +13,8 @@
         --title-text-color: #000028;
         --focus-title: #FF0070;
         --rec-border: #FF0070;
+        --dark-theme: #000028;
+  
       
         --rec-radius-border: 1px solid #FF0070;
         --rec-radius: 100%;

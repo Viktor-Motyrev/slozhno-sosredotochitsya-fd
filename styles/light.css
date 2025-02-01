@@ -3,7 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
+:root.theme-light .page{
     --back-image: url("/images/cover-image-light.png");
     --text-back: #FF8DCB;
     --text-color: #353430;
@@ -12,6 +12,7 @@
     --focus-title: #353430;
     --rec-border: #353430;
     --header-button-hover: rgba(50, 49, 45, 0.40);
+   
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,6 +25,7 @@
         --focus-title: #353430;
         --rec-border: #353430;
         --header-button-hover: rgba(50, 49, 45, 0.40);
+        
     }
 }
 

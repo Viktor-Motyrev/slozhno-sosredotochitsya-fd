@@ -5,16 +5,18 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-
+  background-color: var(--dark-theme);
+  
+  
 
 }
 
 /* Шапка */
 .header {
-  margin-block-end: 60px;
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  margin-block-end: 60px;
   justify-items: end;
   align-items: center;
   padding-top: var(--padding);

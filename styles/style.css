@@ -5,7 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: var(--dark-theme);
+  background-color: var(--back-color);
   
   
 
@@ -16,9 +16,9 @@
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  margin-block-end: 60px;
   justify-items: end;
   align-items: center;
+  margin-block-end: 60px;
   padding-top: var(--padding);
   padding-right: var(--padding);
   padding-bottom: var(--padding);

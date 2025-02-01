@@ -12,9 +12,9 @@
     --focus-title: #353430;
     --rec-border: #353430;
     --header-button-hover: rgba(50, 49, 45, 0.40);
-    --back-color:#FFF1F7;
+    --back-color: #FFF1F7;
 
-   
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,18 +27,18 @@
         --focus-title: #353430;
         --rec-border: #353430;
         --header-button-hover: rgba(50, 49, 45, 0.40);
-        --back-color:#FFF1F7;
-        
+        --back-color: #FFF1F7;
+
     }
 }
 
 
 @media (prefers-color-scheme: light) {
-	.theme-auto .header__rec {
-		visibility: hidden;
-	}
+    .theme-auto .header__rec {
+        visibility: hidden;
+    }
 }
 
 .theme-light .header__rec {
-	visibility: hidden;
+    visibility: hidden;
 }

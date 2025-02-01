@@ -6,8 +6,8 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: var(--back-color);
-  
-  
+
+
 
 }
 
@@ -30,6 +30,7 @@
     margin-block-end: 30px;
   }
 }
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
 .cover__title {
   color: var(--title-color);
   text-shadow: 4px 4px 0px #FF0070;
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-style: normal;
   font-weight: 700;
@@ -53,7 +54,7 @@
 }
 
 .cover__paragraph {
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
@@ -110,7 +111,7 @@
 .header__theme-menu-button {
   color: var(--rec-border);
   text-align: center;
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -141,7 +142,7 @@
 .header__rec {
   color: var(--rec-text);
   text-align: center;
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -211,7 +212,7 @@
 /* Секция с текстовым контентом */
 .focus-tips__title {
   color: var(--focus-title);
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -233,7 +234,7 @@
 
 .focus-tips__paragraph-title {
   color: var(--title-text-color);
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -243,7 +244,7 @@
 
 .focus-tips__paragraph-text {
   color: var(--text-color);
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -365,7 +366,7 @@
 
 .card__text {
   color: var(--title-text-color);
-  font-family:var(--font-familytext);
+  font-family: var(--font-familytext);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

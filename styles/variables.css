@@ -1,5 +1,5 @@
 :root {
-  --back-image: url("/images/cover-image-dark.png");
+  --back-image: url("../images/cover-image-dark.png");
   --text-back: #FF0070;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
@@ -15,6 +15,12 @@
 
   --header-button-hover: rgba(255, 0, 112, 0.40);
   --back-color: #000028;
+  
+  --padding: 20px;
+  --padding-mobile: 10px;
+  --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-title-mob: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-familytext: 'IBM Plex Mono', 'OpenSans', sans-serif;
 
 }
 

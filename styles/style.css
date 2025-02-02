@@ -101,12 +101,6 @@
 }
 
 /* кнопка */
-.header__theme-menu-button_active {
-  pointer-events: none;
-  border: 1px solid var(--focus-title);
-  width: 70px;
-  min-height: 26px;
-}
 
 .header__theme-menu-button {
   color: var(--rec-border);
@@ -122,6 +116,13 @@
   border: 0;
   background: transparent;
   text-transform: lowercase;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--focus-title);
+  width: 70px;
+  min-height: 26px;
 }
 
 .header__theme-menu-button:focus {
@@ -279,11 +280,14 @@
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  padding: var(--padding);
+  margin-block-end: 80px;
 }
 
 @media (width <=425px) {
   .focus-tips__cards {
     flex-direction: column;
+    padding: var(--padding-mobile);
   }
 }
 
@@ -307,37 +311,36 @@
 
 .flex {
   flex-direction: column;
+  
 }
 
 .focus-tips {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding-right: var(--padding);
-  padding-left: var(--padding);
+   
 }
 
 @media (width <=425px) {
   .focus-tips {
-    padding: var(--padding-mobile);
     gap: 50px;
   }
 }
 
 @media (width > 768px) {
-  .legacyOne {
+  .content__list{
     max-width: 648px;
   }
 }
 
 @media (425px < width <=768px) {
-  .legacyOne {
+  .content__list {
     max-width: 472px;
   }
 }
 
 @media (width >=1024px) {
-  .legacyTwo {
+  .content__item {
     max-width: 314px;
   }
 }

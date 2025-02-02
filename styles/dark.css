@@ -1,12 +1,12 @@
-/*
+/* 
   Специально для тёмной темы при наличии класса,
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
 
-:root.theme-dark .page {
-  :root {
-    --back-image: url("/images/cover-image-dark.png");
+:root.theme-dark {
+ 
+    --back-image: url("../images/cover-image-dark.png");
     --text-back: #FF0070;
     --text-color: #F1B2CE;
     --title-color: #DB00FF;
@@ -25,5 +25,3 @@
 
     --header-button-hover: rgba(255, 0, 112, 0.40);
   }
-
-}

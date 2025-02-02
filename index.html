@@ -6,17 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="dark light" />
-  <link rel="icon" href="/images/favicon.ico" sizes="any" />
-  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/images/mobile-icon.png">
-  <link rel="stylesheet" href="/styles/variables.css" />
-  <link rel="stylesheet" href="/styles/style.css" />
-  <link rel="stylesheet" href="/styles/dark.css" />
-  <link rel="stylesheet" href="/styles/light.css" />
-  <link rel="stylesheet" href="/fonts/fonts.css" />
-  <link rel="stylesheet" href="/styles/globals.css" />
+  <link rel="icon" href="./images/favicon.ico" sizes="any" />
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./images/mobile-icon.png">
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/light.css" />
+  <link rel="stylesheet" href="./styles/dark.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
   <title>Сложно сосредоточиться</title>
-  <script src="/scripts/script.js"></script>
 </head>
 
 <body class="page">
@@ -31,32 +30,31 @@
         </li>
         <li class="header__theme-menu-item">
           <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-            disabled>
-            Авто
-          </button>
-        </li>
-        <li class="header__theme-menu-item">
-          <button class="header__theme-menu-button header__theme-menu-button_type_dark">
+          disabled>
+          Авто
+        </button>
+      </li>
+      <li class="header__theme-menu-item">
+        <button class="header__theme-menu-button header__theme-menu-button_type_dark">
             Неон
           </button>
         </li>
       </ul>
     </nav>
     <h1 class="cover__title">no focus</h1>
-    <section class="cover">
+    <div class="cover">
       <p class="cover__paragraph">
         Что делать, когда не можешь делать ничего<br />Или почему нам так
         сложно сконцентрироваться, особенно когда очень надо
       </p>
-    </section>
+    </div>
   </header>
-
+  
   <main class="main">
-    <section class="focus-tips">
-      <article class="focus-tips__cards">
+      <section class="focus-tips__cards">
         <h2 class="focus-tips__title">Почему сосредоточиться так сложно</h2>
         <div class="focus-tips__card flex">
-          <div class="focus-tips__paragraph legacyOne">
+          <article class="focus-tips__paragraph content__list">
             <h3 class="focus-tips__paragraph-title bold">Многозадачность</h3>
             <p class="focus-tips__paragraph-text">
               Особенно сложно сосредоточиться, когда задач много и все они —
@@ -64,15 +62,15 @@
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
               <a class="focus-tips__paragraph-link" href="https://dana.org/article/multicosts-of-multitasking/"
-                target="_blank">выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах
+              target="_blank">выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
               задач, организм паникует и выделяет кортизол и адреналин —
               «гормоны стресса». Из-за этого мы работаем невнимательно:
               ошибаемся и быстро устаём.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyOne">
+          </article>
+          
+          <article class="focus-tips__paragraph content__list">
             <h3 class="focus-tips__paragraph-title bold">Дофамин</h3>
             <p class="focus-tips__paragraph-text">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -85,14 +83,15 @@
               замкнутый круг: чем больше отвлекаешься, тем больше удовольствия
               получаешь.
             </p>
-          </div>
+          </article>
         </div>
-      </article>
-
-      <article class="focus-tips__cards flex">
+      </section>
+    
+      
+      <section class="focus-tips__cards flex">
         <h2 class="focus-tips__title">Что снижает концентрацию внимания?</h2>
         <div class="focus-tips__card">
-          <div class="focus-tips__paragraph legacyTwo">
+          <article class="focus-tips__paragraph content__item">
             <h3 class="focus-tips__paragraph-title bold">Многозадачность</h3>
             <p class="focus-tips__paragraph-text">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -102,9 +101,9 @@
               собранными всё время — невозможно. Концентрация — мышца, и она
               может не выдержать, если не давать ей отдохнуть.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyTwo">
+          </article>
+          
+          <article class="focus-tips__paragraph content__item">
             <h3 class="focus-tips__paragraph-title bold">Еда</h3>
             <p class="focus-tips__paragraph-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -114,9 +113,9 @@
               «быстрых углеводов» заканчивается, мы чувствуем усталость и
               сонливость. И хотим ещё больше быстрых углеводов.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyTwo">
+          </article>
+          
+          <article class="focus-tips__paragraph content__item">
             <h3 class="focus-tips__paragraph-title bold">Гаджеты</h3>
             <p class="focus-tips__paragraph-text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -128,11 +127,11 @@
               гаджетах, тем больше времени затем нужно, чтобы вернуться к
               работе.
             </p>
-          </div>
+          </article>
         </div>
-      </article>
+      </section>
 
-      <article class="focus-tips__cards">
+      <section class="focus-tips__cards">
         <h2 class="focus-tips__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
@@ -141,8 +140,8 @@
           <h3 class="focus-tips__paragraph-title bold">
             5 простых (на самом деле не очень) советов
           </h3>
-
-          <div class="focus-tips__paragraph legacyOne">
+          
+          <article class="focus-tips__paragraph content__list">
             <h4 class="focus-tips__paragraph-title">
               Представьте небо и облака
             </h4>
@@ -156,9 +155,9 @@
               денется. Это упражнение поможет вернуться в настоящий момент, а
               не волноваться о потенциальных проблемах из будущего.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyOne">
+          </article>
+          
+          <article class="focus-tips__paragraph content__list">
             <h4 class="focus-tips__paragraph-title">Включите музыку</h4>
             <p class="focus-tips__paragraph-text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -166,24 +165,24 @@
               Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
               попробовать включить плейлист в «белым шумом» или нейромузыкой.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyOne">
+          </article>
+          
+          <article class="focus-tips__paragraph content__list">
             <h4 class="focus-tips__paragraph-title">Прогуляйтесь</h4>
             <p class="focus-tips__paragraph-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a class="focus-tips__paragraph-link"
-                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
-                target="_blank">показал</a>, что созерцание природы повышает концентрацию, в то время как
+              href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+              target="_blank">показал</a>, что созерцание природы повышает концентрацию, в то время как
               после просмотра городских пейзажей она наоборот понижается.
               Можно совместить прогулку с физическими упражнениями или бегом —
               так в мозг поступит ещё больше кислорода и он будет лучше
               работать. Но и простая двадцатиминутная прогулка — тоже отличный
               вариант.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyOne">
+          </article>
+          
+          <article class="focus-tips__paragraph content__list">
             <h4 class="focus-tips__paragraph-title">Хорошо ешьте</h4>
             <p class="focus-tips__paragraph-text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -192,9 +191,9 @@
               чечевица, фасоль), коричневый рис, хлеб из цельнозерновой
               пшеницы.
             </p>
-          </div>
-
-          <div class="focus-tips__paragraph legacyOne">
+          </article>
+          
+          <article class="focus-tips__paragraph content__list">
             <h4 class="focus-tips__paragraph-title">Читайте</h4>
             <p class="focus-tips__paragraph-text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
@@ -202,14 +201,14 @@
               даже секунд. А вот интересная книга способна затянуть и на
               несколько часов и круто тренирует направленное внимание.
             </p>
-          </div>
+          </article>
         </div>
-      </article>
-    </section>
+      </section>
+    
 
     <section class="card">
       <h2 class="card__text">А можно в картинках?</h2>
-
+      
       <div class="card__items">
         <img class="card__item card__item_sunset" src="images/sunset.png" alt="sunset" loading="lazy" />
         <img class="card__item card__item_iceCream" src="images/ice-cream.png" alt="ice-cream" loading="lazy" />
@@ -219,10 +218,11 @@
       </div>
     </section>
   </main>
-
+  
   <footer class="footer decorated-zone">
     <h2 class="footer__title">focus</h2>
   </footer>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>

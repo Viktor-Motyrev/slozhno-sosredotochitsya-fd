@@ -28,7 +28,7 @@
 @media (width <=425px) {
   .header {
     padding: var(--padding-mobile);
-    margin-block-end: 34px;
+    margin-block-end: 20px;
     max-height: 668px;
   }
 }
@@ -85,7 +85,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 10px;
 }
 
 @media (width <=768px) {
@@ -142,7 +142,7 @@
 
 #default__button {
   border: none;
-  outline: 1px solid var(--focus-active);
+  outline: 1px solid var(--focus-active) ;
   
 }
 
@@ -175,8 +175,8 @@
 
 @media (width <=425px) {
   .header__rec {
-    top: 14px;
-    right: 37px;
+    top: 10px;
+    right: 38px;
   }
 }
 
@@ -213,7 +213,7 @@
   }
 
   .decorated-zone::before {
-    top: 11px;
+    top: 10px;
     right: 10px;
   }
 }

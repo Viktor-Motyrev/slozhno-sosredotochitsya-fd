@@ -28,7 +28,7 @@
 @media (width <=425px) {
   .header {
     padding: var(--padding-mobile);
-    margin-block-end: 20px;
+    margin-block-end: 34px;
     max-height: 668px;
   }
 }
@@ -85,7 +85,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 13px;
 }
 
 @media (width <=768px) {
@@ -112,19 +112,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  padding: 2px 13px 4px;
   cursor: pointer;
   outline: none;
   border: 0;
   background: transparent;
   text-transform: lowercase;
+  padding: 2px 13px;
+  min-height: 26px;
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--focus-title);
   width: 70px;
-  min-height: 26px;
 }
 
 .header__theme-menu-button:focus {
@@ -132,12 +132,18 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  text-decoration: underline;
-  text-underline-position: under;
+  border-bottom: 1px solid var(--focus-active);
 }
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--header-button-hover);
+  
+}
+
+#default__button {
+  border: none;
+  outline: 1px solid var(--focus-active);
+  
 }
 
 
@@ -169,8 +175,8 @@
 
 @media (width <=425px) {
   .header__rec {
-    top: 10px;
-    right: 40px;
+    top: 14px;
+    right: 37px;
   }
 }
 
@@ -207,7 +213,7 @@
   }
 
   .decorated-zone::before {
-    top: 9px;
+    top: 11px;
     right: 10px;
   }
 }
@@ -283,6 +289,7 @@
   gap: 20px;
   padding: var(--padding);
   margin-block-end: 40px;
+  justify-content: space-between;
 }
 
 @media (width <=425px) {

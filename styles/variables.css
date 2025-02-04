@@ -5,6 +5,8 @@
   --title-color: #DB00FF;
   --title-text-color: #000028;
   --focus-title: #FF0070;
+  --focus-active:#FF0070;
+  --default-outline:#FF0070;
   --rec-border: #FF0070;
 
   --rec-radius-border: 1px solid #FF0070;

@@ -133,16 +133,11 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--focus-active);
+  
 }
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--header-button-hover);
-  
-}
-
-#default__button {
-  border: none;
-  outline: 1px solid var(--focus-active) ;
   
 }
 
@@ -170,7 +165,7 @@
   background-color: var(--rec-radius-back);
   box-shadow: var(--rec-radius-shadow);
   top: 8px;
-  left: 45px;
+  left: 42px;
 }
 
 @media (width <=425px) {

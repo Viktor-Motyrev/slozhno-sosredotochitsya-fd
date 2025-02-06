@@ -7,9 +7,6 @@
   background-repeat: no-repeat;
   background-color: var(--back-color);
 
-
-
-
 }
 
 /* Шапка */
@@ -24,15 +21,13 @@
   padding-right: var(--padding);
   padding-bottom: var(--padding);
   min-block-size: 768px;
-  
+  block-size: 100vh;
+
 }
 
 @media (width <=1023px) {
   .header {
-    min-block-size: 768px;
-    block-size: 100vh;
-    
-    
+    min-block-size: 1024px;
   }
 }
 
@@ -41,9 +36,6 @@
     padding: var(--padding-mobile);
     margin-block-end: 20px;
     min-block-size: 668px;
-    block-size: auto;
-    
-    
   }
 }
 
@@ -147,12 +139,12 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--focus-active);
-  
+
 }
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--header-button-hover);
-  
+
 }
 
 
@@ -187,10 +179,6 @@
     top: 10px;
     right: 38px;
   }
-}
-
-.decorated-zone {
-
 }
 
 .decorated-zone::after {
@@ -450,7 +438,8 @@
   position: relative;
   justify-content: center;
   min-block-size: 768px;
-  
+  block-size: 100vh;
+
 }
 
 .footer__title {
@@ -472,9 +461,8 @@
 
 @media (width <=1023px) {
   .footer {
-    min-block-size: 768px;
-    block-size: 100vh;
-   
+    min-block-size: 1024px;
+
   }
 }
 
@@ -482,7 +470,5 @@
   .footer {
     padding: var(--padding-mobile);
     min-block-size: 668px;
-    block-size: auto;
   }
 }
-
